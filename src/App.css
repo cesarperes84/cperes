@@ -60,12 +60,12 @@
         hover:font-bold
         hover:text-white
         transition-all
+        min-w-[calc(100%-2rem)]
     }
     .project-name {
         @apply
         flex-grow
     }
-
     .project-category:nth-child(n) {
         @apply
         mt-2
